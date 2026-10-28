@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/*Website header*/
+
+header{
+    background-color: #164b8c;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1{
+    margin-bottom: 10PX;
+}
+
+main{
+    max-width: 1100PX;
+    margin: auto;
+    padding: 20PX;
+}
+
+h2{
+    color: #164b8c;
+}
+
+/*Search Section*/
+
+.search-section{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+#searchInput{
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 16px;
+
+    border: 2px solid#ddd;
+    border-radius: 8px;
+
+
+    /*Smooth border color change*/
+    transition: border-color 0.3s ease;
+}
+
+#searchInput:focus{
+    outline:none;
+    border-color: #007bff;
+}
